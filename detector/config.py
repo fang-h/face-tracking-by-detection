@@ -1,0 +1,12 @@
+img_dim2 = 1024
+rgb_mean = (104, 117, 123)  # bgr order
+num_classes = 2
+save_path = 'logs'
+EPOCHS = 150
+loc_weights = 1.0
+conf_weights = 1.0
+variance = [0.1, 0.2]
+save_image_path = 'image'
+threshold_for_pos = 0.4  # > 0.4
+threshold_for_neg = 0.3  # < 0.3
+ratio_between_neg_and_pos = 3
